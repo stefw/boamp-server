@@ -24,8 +24,8 @@ Récupère les détails complets d'un marché spécifique
 
 
 ### Exemples
-**Recherche les marchés publics contenant les mots-clés "communication" et "digital"**
-**Recherche les marchés publics contenant les mots-clés "construction d'un hôpital", exporte les résultats dans un CSV**
+- **Recherche les marchés publics contenant les mots-clés "communication" et "digital"**
+- **Recherche les marchés publics contenant les mots-clés "construction d'un hôpital", exporte les résultats dans un CSV**
 
 
 
