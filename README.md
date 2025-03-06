@@ -2,6 +2,7 @@
 
 Un serveur MCP (Model Context Protocol) pour interroger l'API BOAMP et récupérer les avis de marchés publics. Ce serveur permet de rechercher des marchés publics en utilisant divers critères et d'obtenir des détails complets sur des marchés spécifiques.
 
+<img width="1499" alt="boamp" src="https://github.com/user-attachments/assets/1943bc68-911a-4217-a6eb-fddd600f9252" />
 
 
 ### Outils
@@ -26,6 +27,12 @@ Récupère les détails complets d'un marché spécifique
 ### Exemples
 - **Recherche les marchés publics contenant les mots-clés "communication" et "digital"**
 - **Recherche les marchés publics contenant les mots-clés "construction d'un hôpital", exporte les résultats dans un CSV**
+
+
+
+
+<img width="1495" alt="mcp" src="https://github.com/user-attachments/assets/51241d33-4895-41d8-8bc5-0ad964c7df00" />
+
 
 
 
@@ -72,3 +79,10 @@ npm run inspector
 ```
 
 The Inspector will provide a URL to access debugging tools in your browser.
+
+
+
+
+
+
+
