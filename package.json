@@ -1,0 +1,27 @@
+{
+  "name": "boamp-server",
+  "version": "0.1.0",
+  "description": "Un serveur MCP pour interroger l&#39;API BOAMP et récupérer les avis de marchés publics",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "boamp-server": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"import('fs').then(fs => fs.chmodSync('build/index.js', '755'))\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "axios": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
