@@ -1,19 +1,8 @@
 # boamp-server MCP Server
 
-Un serveur MCP pour interroger l&#39;API BOAMP et récupérer les avis de marchés publics
+Un serveur MCP (Model Context Protocol) pour interroger l'API BOAMP et récupérer les avis de marchés publics. Ce serveur permet de rechercher des marchés publics en utilisant divers critères et d'obtenir des détails complets sur des marchés spécifiques.
 
-This is a TypeScript-based MCP server that implements a simple notes system. It demonstrates core MCP concepts by providing:
 
-- Resources representing text notes with URIs and metadata
-- Tools for creating new notes
-- Prompts for generating summaries of notes
-
-## Features
-
-### Resources
-- List and access notes via `note://` URIs
-- Each note has a title, content and metadata
-- Plain text mime type for simple content access
 
 ### Outils
 
@@ -35,7 +24,8 @@ Récupère les détails complets d'un marché spécifique
 
 
 ### Exemples
-** Recherche les marchés publics contenant les mots-clés "communication" et "digital" **
+**Recherche les marchés publics contenant les mots-clés "communication" et "digital"**
+**Recherche les marchés publics contenant les mots-clés "construction d'un hôpital", exporte les résultats dans un CSV**
 
 
 
